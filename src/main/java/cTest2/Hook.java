@@ -16,7 +16,7 @@ public class Hook {
     @Before("@Shopica")
     public void setUpProd() throws MalformedURLException {
         System.out.println("in setUpProd");
-        Driver.getInstance().get("http://www.google.com");
+        Driver.getInstance().get("http://localhost:8080");
     }
 
     @After("@Shopica")
