@@ -1,11 +1,14 @@
-package cTest2;
+package cTest2.stepDefinitions.demo;
 
+import cTest2.BaseTest;
+import cTest2.Driver;
+import cTest2.XpathDirectory;
 import cucumber.api.java.en.Given;
 import org.openqa.selenium.WebElement;
 
 import cTest2.services.RefresherService;
 
-public class GoogleTest extends BaseTest implements XpathDirectory{
+public class GoogleTest extends BaseTest implements XpathDirectory {
     /*
     @When("^go to google$")
     public void go_to_google() throws Throwable {
