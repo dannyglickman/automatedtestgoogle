@@ -1,9 +1,10 @@
 package cTest2.stepDefinitions.demo;
 
 import cTest2.BaseTest;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
-import cucumber.api.java.en.Then;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 
 public class DemoStepDefinitions extends BaseTest {
 	@Given("^I want to write a step with precondition$")

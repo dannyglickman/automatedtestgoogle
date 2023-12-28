@@ -3,9 +3,8 @@ package cTest2.stepDefinitions.demo;
 import cTest2.BaseTest;
 import cTest2.Driver;
 import cTest2.XpathDirectory;
-import cucumber.api.java.en.Given;
 import org.openqa.selenium.WebElement;
-
+import io.cucumber.java.en.Given;
 import cTest2.services.RefresherService;
 
 public class GoogleTest extends BaseTest implements XpathDirectory {
